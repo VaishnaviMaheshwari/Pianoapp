@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  audioplayers: ^0.20.1
 
 dev_dependencies:
   flutter_test:
@@ -58,7 +59,14 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - note1.wav
+    - note2.wav
+    - note3.wav
+    - note4.wav
+    - note5.wav
+    - note6.wav
+    - note7.wav
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
